@@ -6,14 +6,31 @@
 //
 
 import UIKit
+import SQLite3
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var t1: UITextField!
+    @IBOutlet weak var t2: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        sqlite.createFile()
+        
+    
     }
-
-
+    @IBAction func addButtonAction(_ sender: Any) {
+        
+        
+     
+    }
+    @IBAction func showButtonAction(_ sender: Any) {
+        
+    
+    }
+    
+    @IBAction func deleteButtonAction(_ sender: Any) {
+    }
+    
 }
 
